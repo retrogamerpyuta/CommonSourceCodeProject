@@ -161,7 +161,7 @@ void MEMORY::initialize()
 	
 	// register event
 	register_vline_event(this);
-	register_event_by_clock(this, EVENT_TEMPO, CPU_CLOCKS / 64, true, NULL);	// 32hz * 2
+	register_event_by_clock(this, EVENT_TEMPO, CPU_CLOCKS / 96, true, NULL);	// 32hz * 3 Adjusted CPU clock to match the original MZ-80 timing
 	register_event_by_clock(this, EVENT_BLINK, CPU_CLOCKS / 3, true, NULL);		// 1.5hz * 2
 }
 
