@@ -1,7 +1,7 @@
 # CommonSourceCodeProject
 
 Toshiya Takedaさんの Common Source Code Projectに変更を加えたものです。\
-kuran-kuranさんのリポジトリからForkしています。\
+kuran-kuranさんのリポジトリからForkしています。
 
 ＜変更点＞\
 2026/09/16　EmuZ-80Kのサウンドのテンポが実機より遅いと感じたため修正。\
